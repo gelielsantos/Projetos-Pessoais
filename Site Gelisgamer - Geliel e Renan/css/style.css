@@ -1,0 +1,924 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, white,#ffee02);
+}
+
+.bannerint{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.logo{
+    width: 150px;
+    background-color: #ffee02;
+    border: 2px solid #ffee02;
+    border-radius: 10px;
+    box-shadow: 5px 1px 30px black;
+}
+.d-flex{
+    margin-top: 26px;
+    height: 50%;
+    font-size: 0.9em;
+}
+.busca{
+    width: 70%;
+}
+.botao{
+    width: 30%;
+    background-color: #ffee02;
+    border: 2px solid #ffee02;
+    border-radius: 5px;
+}
+
+nav {
+    width: 100%;
+    padding: 4px 1px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background: linear-gradient(to bottom, #6531d6,#2c008a);
+    background-color: #6531d6;
+    border: 2px solid #2c008a;
+}
+
+.menu{
+    font-family: sans-serif;
+    padding: 13px 0px;
+    text-align: center;
+    color: #ffee02;
+    margin-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffee02;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 15px 15px;
+    transition: 0.8s;
+}
+
+.menu a:hover{
+    border: 2px solid #ffee02;
+    background-color: #ffee02;
+    border-radius: 10px;
+    color: #2c008a;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline;
+    /* padding: 0 25px; */
+}
+
+.buenas{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #8a8100;
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    color: #ffee02;
+    font-weight: bold;
+    background-color: #2c008a;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #2c008a;
+    border-radius: 100px;
+}
+
+.tiktok{
+    margin-top: 100px;
+    width: 200px;
+    box-shadow: 5px 2px 10px black;
+}
+.nomerede{
+    margin-top: 130px;
+    font-size: 70px;
+}
+.nomerede a{
+    text-decoration: none;
+    color: #2c008a;
+}
+.video{
+    margin-top: 40px;
+}
+video {
+    width: 200px; 
+    height: 350px;
+}
+.insta{
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 59px;
+}
+.instaimg{
+    margin-top: 60px;
+    width: 200px;
+    height: 265px;
+}
+.yout{
+    background: linear-gradient(to bottom,#bdb8b8, white,#bdb8b8);
+    border: 3px solid #2c008a;
+    border-radius: 5px;
+}
+
+.contato{
+    margin-top: 1%;
+    display:grid;
+    padding: 1% 37.5%;
+    background-color: #6531d6;
+    border: 2px solid #6531d6;
+    border-radius: 1000px;
+}
+
+.contato tr{
+    display:grid;
+    color: #ffee02;
+}
+
+.contato input{
+    box-shadow: 5px 2px 10px black;
+}
+
+.contato textarea{
+    box-shadow: 5px 2px 10px black;
+}
+
+.caixatext{
+    color: #2c008a;
+    background-color: #d6c918;
+    border: 2px solid #d6c918;
+    border-radius: 5px;
+}
+
+.enviarcontato{
+    color: #ffee02;
+    margin-left: 65px;
+    margin-top: 5px;
+    background-color: #2c008a;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #ffee02;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.enviarcontato:hover{
+    color: #2c008a;
+    background-color: #ffee02;
+    border: 2px solid #2c008a;
+    transition: 0.9s;
+}
+
+.img-banner{
+    margin-top: 115px;
+    width: 100%;
+}
+
+.produto{
+    background-color: #6531d6;
+    color: #ffee02;
+    margin-top: 15px;
+    padding: 15px;
+    transition: 0.8s;
+    
+}
+.produto:hover{
+    color: white;
+    background-color: #2c008a;
+    transition: 0.3s;
+    box-shadow: 0 1px 5px 2px #999999;
+}
+
+.youimg{
+    margin-top: 130px;
+    width: 200px;
+}
+
+.suporte{
+    margin-top: 10px;
+    background-color: #8a8100;
+    text-align: center;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.suporte h3{
+    color: #ffee02;
+    font-weight: bold;
+    background-color: #2c008a;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #2c008a;
+    border-radius: 100px;
+}
+
+.enviarsuporte a{
+    color: #2c008a;
+    text-decoration: none;
+}
+.enviarsuporte{
+    background-color: #ffee02;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #2c008a;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.enviarsuporte:hover{
+    border: 2px solid #ffee02;
+    background-color: #2c008a;
+    transition: 0.9s;
+}
+.enviarsuporte a:hover{
+    color: #ffee02;
+    transition: 0.9s;
+}
+
+.foto{
+    width: 100%;
+    overflow: hidden; 
+}
+.img-produto{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.img-produto:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
+.nome-produto{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 5px 0;
+}
+
+.descricao-produto{
+    height: 70px;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.preco-produto{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.btn{
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    /* height: 150px; */
+    padding: 25px;
+    background: linear-gradient(to bottom, #6531d6,#2c008a);
+    color: #ffee02;
+    margin-top: 10px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #d6c918;
+    font-size: 1.1em;
+}
+footer a:hover{
+    color: white;
+}
+@media(max-width: 430px){
+    .logo{
+        width: 100px;
+        height: -10px;
+        margin-left: 35%;
+    }
+    nav {
+        position: absolute;
+    }
+
+    .menu{
+        padding-left: -10px;
+        font-size: 0.4em;
+        margin-left: -20px;
+    }
+
+    .menu a{
+        font-weight: 600;
+        font-size: 0.8rem;
+        padding: 2px 2px;
+        margin: 8px;
+    }
+
+    .img-banner{
+        margin-top: 265px;
+    }
+
+    .tiktok{
+        width: 80px;
+    }
+
+    .nomerede{
+        margin-top: 130px;
+        font-size: 20px;
+        margin-left: -15px;
+    }
+
+    video {
+        width: 80px; 
+        height: 230px;
+        margin-left: -30px;
+    }
+
+    .instaimg{
+        margin-top: 100px;
+        width: 75px;
+        height: 100px;
+        margin-left: -25px;
+    }
+
+    .youimg{
+        margin-top: 125px;
+        width: 80px;
+        margin-left: -30px;
+    }
+
+    .contato{
+        padding: 1% 27.5%;
+        
+    }
+
+    .caixatext{
+        width: 100%;
+        height: 80%;
+    }
+
+    .tabela{
+        margin-top: 50px;
+    }
+
+    .enviarcontato{
+        margin-left: 25px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        width: 100px;
+        height: 30px;
+        font-size: 1em;
+    }
+
+}
+
+@media(min-width: 430px) and (max-width: 576px){
+    .logo{
+        width: 100px;
+        height: -10px;
+        margin-left: 40%;
+    }
+
+    nav {
+        position: absolute;
+    }
+    .menu{
+        padding-left: -10px;
+        font-size: 0.4em;
+    }
+
+    .menu a{
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 2px 2px;
+        margin: 10px;
+    }
+
+    .img-banner{
+        margin-top: 250px;
+    }
+
+    .tiktok{
+        width: 100px;
+    }
+
+    .nomerede{
+        margin-top: 130px;
+        font-size: 30px;
+        margin-left: -30px;
+    }
+
+    video {
+        width: 100px; 
+        height: 250px;
+        margin-left: -30px;
+    }
+
+    .instaimg{
+        margin-top: 80px;
+        width: 120px;
+        height: 150px;
+        margin-left: -30px;
+    }
+
+    .youimg{
+        margin-top: 120px;
+        width: 120px;
+        margin-left: -30px;
+    }
+
+    .contato{
+        padding: 1% 27.5%;
+        
+    }
+
+    .caixatext{
+        width: 100%;
+        height: 80%;
+    }
+
+    .tabela{
+        margin-top: 50px;
+    }
+
+    .enviarcontato{
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 100px;
+        height: 30px;
+        font-size: 1em;
+    }
+
+}
+@media(min-width: 576px) and (max-width: 768px){
+    .logo{
+        width: 120px;
+        height: -10px;
+        margin-left: 0;
+    }
+
+    .busca{
+        width: 250px;
+        margin-left: -260px;
+    }
+
+    .botao{
+        width: 90%;
+    }
+
+    .menu{
+        width: 1000px;
+        padding-right: 310px;
+        font-size: 0.6em;
+        margin-left: -100px;
+    }
+
+    .menu a{
+        font-weight: 600;
+        font-size: 0.7rem;
+        padding: 3px 3px;
+        margin: 8px;
+    }
+
+    .img-banner{
+        margin-top: 180px;
+    }
+
+    .tiktok{
+        width: 130px;
+    }
+
+    .nomerede{
+        margin-top: 130px;
+        font-size: 40px;
+        margin-left: -30px;
+    }
+
+    video {
+        width: 130px; 
+        height: 220px;
+        margin-left: -10px;
+    }
+
+    .video{
+        margin-top: 60px;
+    }
+
+    .instaimg{
+        margin-top: 70px;
+        width: 130px;
+        height: 180px;
+        margin-left: -10px;
+    }
+
+    .youimg{
+        margin-top: 130px;
+        width: 130px;
+        margin-left: -10px;
+    }
+
+    .contato{
+        padding: 1% 27.5%;
+        
+    }
+
+    .caixatext{
+        width: 100%;
+        height: 80%;
+    }
+
+    .tabela{
+        margin-top: 50px;
+    }
+
+    .enviarcontato{
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 130px;
+        height: 50px;
+        font-size: 1.1em;
+    }
+
+    .nome-produto{
+        height: 60px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        padding: 5px 0;
+    }
+    
+    .descricao-produto{
+        height: 120px;
+        text-align: left;
+        padding: 5px 0;
+    }
+    
+    .preco-produto{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 8px 0;
+    }
+}
+@media (width: 768px){
+    .menu{
+        width: 1000px;
+        padding-right: 310px;
+        font-size: 0.6em;
+        margin-left: -20px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .logo{
+        width: 120px;
+        height: -10px;
+        margin-left: 0;
+    }
+
+    .busca{
+        width: 400px;
+        margin-left: -400px;
+    }
+
+    .botao{
+        width: 80%;
+    }
+
+    .menu{
+        width: 1000px;
+        padding-right: 310px;
+        font-size: 0.6em;
+    }
+
+    .menu a{
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 5px 5px;
+        margin: 8px;
+    }
+
+    .img-banner{
+        margin-top: 180px;
+    }
+
+    .tiktok{
+        width: 150px;
+    }
+
+    .nomerede{
+        margin-top: 130px;
+        font-size: 50px;
+        margin-left: -30px;
+    }
+
+    video {
+        width: 150px; 
+        height: 250px;
+        margin-left: -10px;
+    }
+
+    .video{
+        margin-top: 50px;
+    }
+
+    .instaimg{
+        margin-top: 70px;
+        width: 150px;
+        height: 200px;
+        margin-left: -10px;
+    }
+
+    .youimg{
+        margin-top: 130px;
+        width: 150px;
+        margin-left: -10px;
+    }
+
+    .contato{
+        padding: 1% 27.5%;
+        
+    }
+
+    .caixatext{
+        width: 100%;
+        height: 80%;
+    }
+
+    .tabela{
+        margin-top: 50px;
+    }
+
+    .enviarcontato{
+        margin-left: 85px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 130px;
+        height: 50px;
+        font-size: 1.1em;
+    }
+
+    .nome-produto{
+        height: 60px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        padding: 5px 0;
+    }
+    
+    .descricao-produto{
+        height: 120px;
+        text-align: left;
+        padding: 5px 0;
+    }
+    
+    .preco-produto{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 8px 0;
+    }
+}
+
+@media(min-width: 991px) and (max-width: 1250px){
+    .logo{
+        width: 120px;
+        height: -10px;
+        margin-left: 0;
+    }
+
+    .busca{
+        width: 140px;
+        margin-left: -0px;
+    }
+
+    .botao{
+        width: 80%;
+    }
+
+    .menu{
+        width: 1000px;
+        padding-right: 310px;
+        font-size: 0.6em;
+    }
+
+    .menu a{
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 4px 4px;
+        margin: 1px;
+    }
+
+    .img-banner{
+        margin-top: 110px;
+    }
+
+    .tiktok{
+        width: 150px;
+    }
+
+    .nomerede{
+        margin-top: 130px;
+        font-size: 50px;
+        margin-left: -30px;
+    }
+
+    video {
+        width: 150px; 
+        height: 250px;
+        margin-left: -10px;
+    }
+
+    .video{
+        margin-top: 50px;
+    }
+
+    .instaimg{
+        margin-top: 70px;
+        width: 150px;
+        height: 200px;
+        margin-left: -10px;
+    }
+
+    .youimg{
+        margin-top: 130px;
+        width: 150px;
+        margin-left: -10px;
+    }
+
+    .contato{
+        padding: 1% 27.5%;
+        
+    }
+
+    .caixatext{
+        width: 100%;
+        height: 80%;
+    }
+
+    .tabela{
+        margin-top: 50px;
+    }
+
+    .enviarcontato{
+        margin-left: 150px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 130px;
+        height: 50px;
+        font-size: 1.3em;
+    }
+
+    .nome-produto{
+        height: 60px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        padding: 5px 0;
+    }
+    
+    .descricao-produto{
+        height: 120px;
+        text-align: left;
+        padding: 5px 0;
+    }
+    
+    .preco-produto{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 8px 0;
+    }
+}
+
+/* @media(min-width: 1100px) and (max-width: 1530px){
+    
+    .enviarcontato{
+        margin-left: 160px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        width: 130px;
+        height: 50px;
+        font-size: 1.3em;
+    }
+} */
+@media(min-width: 1250px) and (max-width: 1500px){
+    .logo{
+        width: 120px;
+        height: -10px;
+        margin-left: 0;
+    }
+
+    .busca{
+        width: 140px;
+        margin-left: -0px;
+    }
+
+    .botao{
+        width: 80%;
+    }
+
+    .menu{
+        width: 1000px;
+        padding-right: 310px;
+        font-size: 0.6em;
+    }
+
+    .menu a{
+        
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 4px 4px;
+        margin: 1px;
+    }
+
+    .img-banner{
+        margin-top: 110px;
+    }
+
+    .tiktok{
+        width: 150px;
+    }
+
+    .nomerede{
+        margin-top: 130px;
+        font-size: 50px;
+        margin-left: -30px;
+    }
+
+    video {
+        width: 150px; 
+        height: 250px;
+        margin-left: -10px;
+    }
+
+    .video{
+        margin-top: 50px;
+    }
+
+    .instaimg{
+        margin-top: 70px;
+        width: 150px;
+        height: 200px;
+        margin-left: -10px;
+    }
+
+    .youimg{
+        margin-top: 130px;
+        width: 150px;
+        margin-left: -10px;
+    }
+
+    .contato{
+        padding: 1% 27.5%;
+        
+    }
+
+    .caixatext{
+        width: 100%;
+        height: 80%;
+    }
+
+    .tabela{
+        margin-top: 50px;
+    }
+
+    .enviarcontato{
+        margin-left: 180px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 170px;
+        height: 50px;
+        font-size: 1.3em;
+    }
+
+    .nome-produto{
+        height: 60px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        padding: 5px 0;
+    }
+    
+    .descricao-produto{
+        height: 120px;
+        text-align: left;
+        padding: 5px 0;
+    }
+    
+    .preco-produto{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 8px 0;
+    }
+}

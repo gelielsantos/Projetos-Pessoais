@@ -1,0 +1,100 @@
+
+        <div class="row">
+            <div class="col border-2 col-sm">
+                <div class="produto" onmouseover="mudarCorBtn(btnComprar1)"
+                onmouseout="voltarCorBtn(btnComprar1)">
+                    <div class="foto">
+                        <img class="img-produto" src="img/cadeira.jpg" alt="Cadeira">
+                    </div>
+                    <div class="nome-produto">
+                        Cadeira Gamer
+                    </div>
+                    <div class="descricao-produto">
+                        Cadeira Gamer tradicional, perfeita para os melhores games!!!
+                    </div>
+                    <div class="preco-produto">
+                        R$ 529,90
+                    </div>
+                    <button id="btnComprar1" class="btn btn-outline-light" >
+                        $ Comprar $
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col border-2 col-sm">
+                <div class="produto" onmouseover="mudarCorBtn(btnComprar2)"
+                onmouseout="voltarCorBtn(btnComprar2)">
+                    <div class="foto">
+                        <img class="img-produto" src="img/celular.jpg" alt="Celular">
+                    </div>
+                    <div class="nome-produto">
+                        Celular Xiaomi
+                    </div>
+                    <div class="descricao-produto">
+                        Celular ultra moderno, para você jogar seus melhores games!!!
+                    </div>
+                    <div class="preco-produto">
+                        R$ 1.169,10
+                    </div>
+                    <button id="btnComprar2" class="btn btn-outline-light">
+                        $ Comprar $
+                    </button>
+                </div>
+            </div>
+            <div class="col border-2 col-sm">
+                <div class="produto" onmouseover="mudarCorBtn(btnComprar3)"
+                onmouseout="voltarCorBtn(btnComprar3)">
+                    <div class="foto">
+                        <img class="img-produto" src="img/Processador.jpg" alt="Pão de Queijo">
+                    </div>
+                    <div class="nome-produto">
+                        Processador Razer
+                    </div>
+                    <div class="descricao-produto">
+                        Dependendo, serve até para fritar um ovo básico.
+                    </div>
+                    <div class="preco-produto">
+                        R$ 1.839,90
+                    </div>
+                    <button id="btnComprar3" class="btn btn-outline-light">
+                        $ Comprar $
+                    </button>
+                </div>
+            </div>
+            <div class="col border-2 col-sm">
+                <div class="produto" onmouseover="mudarCorBtn(btnComprar4)"
+                onmouseout="voltarCorBtn(btnComprar4)">
+                    <div class="foto">
+                        <img class="img-produto" src="img/xbox.jpg" alt="Pão Integral">
+                    </div>
+                    <div class="nome-produto">
+                        Xbox Series S
+                    </div>
+                    <div class="descricao-produto">
+                       Lágrima de Sonysta não inclusa!!!
+                    </div>
+                    <div class="preco-produto">
+                        R$ 2.659,90
+                    </div>
+                    <button id="btnComprar4" class="btn btn-outline-light">
+                        $ Comprar $
+                    </button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-sm">
+                    <h3>GelisGamer</h3>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="loja.html">LOJA</a></li>
+                        <li><a href="redes.html">REDES SOCIAIS</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
+                        <li><a href="suporte.html">SUPORTE</a></li>
+                        <li><a href="integrantes.html">CONHEÇA A EQUIPE</a></li>
+                    </ul>
+                </div>
+        </footer>
+    </div>
